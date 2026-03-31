@@ -67,6 +67,56 @@ The dataset consists of multiple relational tables
 2. Create tables using provided schema
 3. Run SQL queries step-by-step
 4. Analyze results and derive insights
+## Project Workflow
+```
+1. **Data Collection**  
+   - Downloaded pizza sales dataset  
+   - Identified multiple related tables  
+
+2. **Data Import**  
+   - Imported CSV files into SQL database  
+   - Created tables (orders, order_details, pizzas, pizza_types)
+3. **Data Cleaning**  
+   - Checked for missing values  
+   - Fixed data types and column formats  
+
+4. **Data Understanding**  
+   - Explored table relationships  
+   - Verified primary and foreign keys
+5. **Data Analysis (SQL)**  
+   - Used JOINs to combine tables  
+   - Applied aggregations (SUM, COUNT, AVG)  
+   - Calculated KPIs (Revenue, Orders, AOV)  
+
+6. **Advanced Analysis**  
+   - Used window functions (RANK, SUM OVER)  
+   - Identified top pizzas per category  
+   - Analyzed running revenue trends
+7. **Business Insights**  
+   - Found top-performing products  
+   - Identified peak hours and days  
+   - Analyzed category-wise performance  
+
+8. **Result Presentation**  
+   - Structured insights for business understanding  
+   - Prepared GitHub README documentation
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
