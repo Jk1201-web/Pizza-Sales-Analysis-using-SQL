@@ -108,7 +108,7 @@ The dataset consists of multiple relational tables
 
 SELECT 
       pt.category,
-      SUM( quantity * price) AS Revenue
+      SUM(od.quantity * p.price) AS Revenue
 FROM pizza_types pt
 JOIN pizzas p 
 ON p.pizza_type_id = p.pizza_type_id
@@ -119,6 +119,31 @@ ORDER BY Revenue DESC
 LIMIT 1;
 
 ```
+## Key Learnings
+- Writing efficient SQL queries for large datasets
+- Applying window functions for advanced analysis
+- Translating raw data into business insights
+- Understanding real-world sales behavior
+## Project Structure
+ pizza-sales-analysis
+ ┣  SQL_Queries.sql
+ ┣  Dataset
+ ┗  README.md
+## Why This Project Matters
+
+- This project simulates real-world data analysis scenarios and demonstrates the ability to:
+
+1. Work with relational databases
+2. Extract meaningful insights
+3. Support business decision-making
+
+
+
+
+
+
+
+
 
 
 
