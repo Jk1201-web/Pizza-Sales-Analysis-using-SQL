@@ -125,6 +125,7 @@ LIMIT 1;
 - Translating raw data into business insights
 - Understanding real-world sales behavior
 ## Project Structure
+```
  pizza-sales-analysis
 
  
@@ -135,6 +136,7 @@ LIMIT 1;
 
  
  ┗  README.md
+ ```
 ## Why This Project Matters
 
 - This project simulates real-world data analysis scenarios and demonstrates the ability to:
