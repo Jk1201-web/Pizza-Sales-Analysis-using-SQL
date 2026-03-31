@@ -128,12 +128,9 @@ LIMIT 1;
 ```
  pizza-sales-analysis
 
- 
  ┣  SQL_Queries.sql
 
- 
  ┣  Dataset
-
  
  ┗  README.md
  ```
