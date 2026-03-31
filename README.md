@@ -10,13 +10,22 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
 - Perform category-level and time-based analysis
 ## Dataset
 The dataset consists of multiple relational tables
-## Data Model (Relational Structure)
-```
- orders (order_id, order_date, order_time)
-        ↓
- order_details (order_id, pizza_id, quantity)
-        ↓
- pizzas (pizza_id, pizza_type_id, size, price)
-        ↓
- pizza_types (pizza_type_id, name, category)
-```
+## Problem Statement
+#### The business wants to understand:
+- Which products drive the most revenue?
+- When are peak sales periods?
+- How customers behave in ordering?
+- Which categories perform best?
+## Key Business Questions Solved
+✔ What is the total revenue and total orders?
+✔ Which pizzas generate the highest revenue?
+✔ What are the peak order days and hours?
+✔ How does revenue grow over time?
+✔ Which category contributes the most to revenue?
+## Tools & Skills Used
+*SQL
+Joins (INNER JOIN)
+Aggregations (SUM, COUNT, AVG)
+Window Functions (RANK, SUM OVER)
+Data Analysis
+Business Insight Generation*
