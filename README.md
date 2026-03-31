@@ -12,16 +12,16 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
 The dataset consists of multiple relational tables
 ## Problem Statement
 #### The business wants to understand:
-- Which products drive the most revenue?
-- When are peak sales periods?
-- How customers behave in ordering?
-- Which categories perform best?
+1.  Which products drive the most revenue?
+2.  When are peak sales periods?
+3.  How customers behave in ordering?
+4.  Which categories perform best?
 ## Key Business Questions Solved
-- ✔  What is the total revenue and total orders?
-- ✔  Which pizzas generate the highest revenue?
-- ✔ What are the peak order days and hours?
-- ✔ How does revenue grow over time?
-- ✔ Which category contributes the most to revenue?
+1.  What is the total revenue and total orders?
+2.  Which pizzas generate the highest revenue?
+3. What are the peak order days and hours?
+4. How does revenue grow over time?
+5. Which category contributes the most to revenue?
 ## Tools & Skills Used
 - SQL
 - Joins (INNER JOIN)
