@@ -104,21 +104,21 @@ The dataset consists of multiple relational tables
    - Prepared GitHub README documentation
 ## Sample SQL Query
 ```
-- Revenue by category :
+- 3] Category contributed highest revenue
 
 SELECT 
-    pt.category,
-    ROUND(SUM(od.quantity * p.price) AS total_revenue
-FROM order_details od
+      pt.category,
+      SUM( quantity * price) AS Revenue
+FROM pizza_types pt
 JOIN pizzas p 
-    ON od.pizza_id = p.pizza_id
-JOIN pizza_types pt 
-    ON p.pizza_type_id = pt.pizza_type_id
-GROUP BY pt.category
-ORDER BY total_revenue DESC;
+ON p.pizza_type_id = p.pizza_type_id
+JOIN order_details od
+ON od.pizza_id = p.pizza_id
+GROUP BY category
+ORDER BY Revenue DESC 
+LIMIT 1;
 
 ```
-
 
 
 
