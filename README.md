@@ -103,7 +103,18 @@ The dataset consists of multiple relational tables
    - Structured insights for business understanding  
    - Prepared GitHub README documentation
 ## Sample SQL Query
-
+```
+SELECT 
+    pt.category,
+    ROUND(SUM(od.quantity * p.price) AS total_revenue
+FROM order_details od
+JOIN pizzas p 
+    ON od.pizza_id = p.pizza_id
+JOIN pizza_types pt 
+    ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.category
+ORDER BY total_revenue DESC;
+```
 
 
 
