@@ -126,8 +126,14 @@ LIMIT 1;
 - Understanding real-world sales behavior
 ## Project Structure
  pizza-sales-analysis
+
+ 
  ┣  SQL_Queries.sql
+
+ 
  ┣  Dataset
+
+ 
  ┗  README.md
 ## Why This Project Matters
 
