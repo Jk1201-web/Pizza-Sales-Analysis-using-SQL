@@ -63,10 +63,10 @@ The dataset consists of multiple relational tables
 - Observed **steady business growth** with periodic spikes
 - Highest daily revenue exceeded **₹4,400**
 ## How to Run
-1 Import dataset into MySQL / PostgreSQL
-2 Create tables using provided schema
-3 Run SQL queries step-by-step
-4 Analyze results and derive insights
+1. Import dataset into MySQL / PostgreSQL
+2. Create tables using provided schema
+3. Run SQL queries step-by-step
+4. Analyze results and derive insights
 
 
 
