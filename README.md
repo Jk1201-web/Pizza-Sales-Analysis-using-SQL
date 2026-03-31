@@ -17,11 +17,11 @@ The dataset consists of multiple relational tables
 - How customers behave in ordering?
 - Which categories perform best?
 ## Key Business Questions Solved
-✔- What is the total revenue and total orders?
-✔- Which pizzas generate the highest revenue?
-✔- What are the peak order days and hours?
-✔- How does revenue grow over time?
-✔- Which category contributes the most to revenue?
+- ✔  What is the total revenue and total orders?
+- ✔  Which pizzas generate the highest revenue?
+- ✔ What are the peak order days and hours?
+- ✔ How does revenue grow over time?
+- ✔ Which category contributes the most to revenue?
 ## Tools & Skills Used
 - SQL
 - Joins (INNER JOIN)
@@ -38,6 +38,44 @@ The dataset consists of multiple relational tables
 | Grouping | GROUP BY, HAVING |
 | Advanced | Window Functions (RANK, SUM OVER) |
 | Optimization | Subqueries |
+## Key Metrics
+| Matrics | Values |
+|------|------|
+| Total Orders | 21,350 |
+| Total Revenue |	₹817,860 |
+| Total Pizzas | Sold	49,574 |
+| Average Order Value |	₹38.3 |
+| Total Categories | 4 |
+## Key Insights
+### Product Insights
+- Top revenue-generating pizza: **Thai Chicken Pizza (~₹43K)**
+- Top 3 pizzas are all chicken-based, indicating strong customer preference
+- Revenue is concentrated among a few high-performing products
+### Category Insights
+- **Classic category** generated the **highest revenue (~₹220K)**
+- Balanced revenue contribution across all categories
+### Time-Based Insights
+- Peak hours: **12 PM – 2 PM** (Lunch) & **5 PM – 8 PM** (Evening)
+- Highest daily orders reached 115 **(≈2x average demand)**
+- Early mornings and late nights show lower activity
+### Revenue Trend Analysis
+- Used **window functions** to calculate cumulative revenue (running total)
+- Observed **steady business growth** with periodic spikes
+- Highest daily revenue exceeded **₹4,400**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
