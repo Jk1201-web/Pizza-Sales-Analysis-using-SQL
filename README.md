@@ -11,10 +11,12 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
 ## Dataset
 The dataset consists of multiple relational tables
 ## Data Model (Relational Structure)
-- orders (order_id, order_date, order_time)
+```
+ orders (order_id, order_date, order_time)
         ↓
-- order_details (order_id, pizza_id, quantity)
+ order_details (order_id, pizza_id, quantity)
         ↓
-- pizzas (pizza_id, pizza_type_id, size, price)
+ pizzas (pizza_id, pizza_type_id, size, price)
         ↓
-- pizza_types (pizza_type_id, name, category) 
+ pizza_types (pizza_type_id, name, category)
+```
