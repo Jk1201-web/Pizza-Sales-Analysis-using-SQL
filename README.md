@@ -102,7 +102,10 @@ The dataset consists of multiple relational tables
 8. **Result Presentation**  
    - Structured insights for business understanding  
    - Prepared GitHub README documentation
-
+## Sample SQL Query
+```
+SELECT o.order_date, ROUND(SUM(od.quantity * p.price), 2) AS daily_revenue, ROUND(SUM(SUM(od.quantity * p.price)) OVER (ORDER BY o.order_date), 2) AS running_total FROM orders o JOIN order_details od ON o.order_id = od.order_id JOIN pizzas p ON od.pizza_id = p.pizza_id GROUP BY o.order_date;
+```
 
 
 
