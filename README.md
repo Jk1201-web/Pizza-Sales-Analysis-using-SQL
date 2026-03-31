@@ -17,15 +17,35 @@ The dataset consists of multiple relational tables
 - How customers behave in ordering?
 - Which categories perform best?
 ## Key Business Questions Solved
-✔ What is the total revenue and total orders?
-✔ Which pizzas generate the highest revenue?
-✔ What are the peak order days and hours?
-✔ How does revenue grow over time?
-✔ Which category contributes the most to revenue?
+✔- What is the total revenue and total orders?
+✔- Which pizzas generate the highest revenue?
+✔- What are the peak order days and hours?
+✔- How does revenue grow over time?
+✔- Which category contributes the most to revenue?
 ## Tools & Skills Used
-*SQL
-Joins (INNER JOIN)
-Aggregations (SUM, COUNT, AVG)
-Window Functions (RANK, SUM OVER)
-Data Analysis
-Business Insight Generation*
+- SQL
+- Joins (INNER JOIN)
+- Aggregations (SUM, COUNT, AVG)
+- Window Functions (RANK, SUM OVER)
+- Data Analysis
+- Business Insight Generation
+## SQL Techniques Used
+| Category | Concepts |
+|------|------|
+| Data Retrieval | SELECT, WHERE |
+| Joins	| INNER JOIN (3+ tables) |
+| Aggregation |	SUM, COUNT, AVG |
+| Grouping | GROUP BY, HAVING |
+| Advanced | Window Functions (RANK, SUM OVER) |
+| Optimization | Subqueries |
+
+
+
+
+
+
+
+
+
+
+  
