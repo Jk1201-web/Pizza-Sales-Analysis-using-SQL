@@ -76,6 +76,7 @@ The dataset consists of multiple relational tables
 2. **Data Import**  
    - Imported CSV files into SQL database  
    - Created tables (orders, order_details, pizzas, pizza_types)
+
 3. **Data Cleaning**  
    - Checked for missing values  
    - Fixed data types and column formats  
@@ -83,6 +84,7 @@ The dataset consists of multiple relational tables
 4. **Data Understanding**  
    - Explored table relationships  
    - Verified primary and foreign keys
+
 5. **Data Analysis (SQL)**  
    - Used JOINs to combine tables  
    - Applied aggregations (SUM, COUNT, AVG)  
@@ -92,6 +94,7 @@ The dataset consists of multiple relational tables
    - Used window functions (RANK, SUM OVER)  
    - Identified top pizzas per category  
    - Analyzed running revenue trends
+
 7. **Business Insights**  
    - Found top-performing products  
    - Identified peak hours and days  
