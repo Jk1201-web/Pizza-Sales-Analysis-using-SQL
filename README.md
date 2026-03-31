@@ -68,7 +68,6 @@ The dataset consists of multiple relational tables
 3. Run SQL queries step-by-step
 4. Analyze results and derive insights
 ## Project Workflow
-```
 1. **Data Collection**  
    - Downloaded pizza sales dataset  
    - Identified multiple related tables  
@@ -103,7 +102,7 @@ The dataset consists of multiple relational tables
 8. **Result Presentation**  
    - Structured insights for business understanding  
    - Prepared GitHub README documentation
-```
+
 
 
 
