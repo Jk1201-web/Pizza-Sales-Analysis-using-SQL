@@ -32,6 +32,10 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
 The dataset consists of multiple relational tables
 [Here is the used dataset-pizza_sales.zip](pizza_sales.zip)
 
+## ER Diagram.png
+- This ER diagram represents the relational structure of the dataset, where `order_details` acts as a bridge table connecting orders and pizzas.
+- ![ER_Diagram.png](ER_Diagram.png)
+
 ## Problem Statement
 #### The business wants to understand:
 1.  Which products drive the most revenue?
