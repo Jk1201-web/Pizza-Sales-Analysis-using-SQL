@@ -1,4 +1,4 @@
-# Pizza-Sales-Analysis-using-SQL
+# Retail Sales Analysis - SQL
 ## Table of content
 - [Overview](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#overview)
 - [Objective](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#objectives)
