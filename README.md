@@ -1,32 +1,40 @@
 # Pizza-Sales-Analysis-using-SQL
+
 ## Overview
 This project performs an in-depth analysis of a pizza sales dataset to extract **actionable business insights** using **MySQL**.
 It demonstrates real-world data analyst skills including **data cleaning, transformation, KPI analysis, and trend discovery**.
+
 ## Objectives
 - Analyze overall business performance
 - Identify top-selling and high-revenue products
 - Understand customer ordering patterns
 - Detect peak sales days and hours
 - Perform category-level and time-based analysis
+  
 ## Dataset
 The dataset consists of multiple relational tables
+
 ## Problem Statement
 #### The business wants to understand:
 1.  Which products drive the most revenue?
 2.  When are peak sales periods?
 3.  How customers behave in ordering?
 4.  Which categories perform best?
+   
 ## Key Business Questions Solved
 1.  What is the total revenue and total orders?
 2.  Which pizzas generate the highest revenue?
 3. What are the peak order days and hours?
 4. How does revenue grow over time?
 5. Which category contributes the most to revenue?
+   
 ## Tools & Skills Used
 - MySQL
 - Data Analysis
 - Business Insight Generation
+  
 ### SQL Techniques Used
+
 | Category | Concepts |
 |------|------|
 | Data Retrieval | SELECT, WHERE |
@@ -35,7 +43,9 @@ The dataset consists of multiple relational tables
 | Grouping | GROUP BY, HAVING |
 | Advanced | Window Functions (RANK, SUM OVER) |
 | Optimization | Subqueries |
+
 ## Key Metrics
+
 | Matrics | Values |
 |------|------|
 | Total Orders | `21,350` |
@@ -43,6 +53,7 @@ The dataset consists of multiple relational tables
 | Total Pizzas | `Sold 49,574` |
 | Average Order Value |	`₹38.3` |
 | Total Categories | `4` |
+
 ## Key Insights
 ### Product Insights
 - Top revenue-generating pizza: **Thai Chicken Pizza (~₹43K)**
@@ -59,11 +70,13 @@ The dataset consists of multiple relational tables
 - Used **window functions** to calculate cumulative revenue (running total)
 - Observed **steady business growth** with periodic spikes
 - Highest daily revenue exceeded **₹4,400**
+  
 ## How to Run
 1. Import dataset into MySQL / PostgreSQL
 2. Create tables using provided schema
 3. Run SQL queries step-by-step
 4. Analyze results and derive insights
+   
 ## Project Workflow
 1. **Data Collection**
    - Downloaded pizza sales dataset  
@@ -99,7 +112,9 @@ The dataset consists of multiple relational tables
 8. **Result Presentation**  
    - Structured insights for business understanding  
    - Prepared GitHub README documentation
+     
 ## Sample SQL Query
+
 ```
 - 3] Category contributed highest revenue
 
@@ -147,6 +162,7 @@ Pizza-Sales-Analysis-using-SQL
  - [GitHub](https://github.com/Jk1201-web)
  - [Kaggle](https://www.kaggle.com/jijaumohankhandale)
 
+*If you found this project useful, consider giving it a star!*
 
 
 
