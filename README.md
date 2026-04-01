@@ -136,6 +136,10 @@ LIMIT 1;
 1. Work with relational databases
 2. Extract meaningful insights
 3. Support business decision-making
+## Connect With Me
+ - [LinkedIn](www.linkedin.com/in/jijau-khandale)
+ - [GitHub](https://github.com/Jk1201-web)
+ - [Kaggle](https://www.kaggle.com/jijaumohankhandale)
 
 
 
