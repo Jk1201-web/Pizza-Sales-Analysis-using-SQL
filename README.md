@@ -1,4 +1,6 @@
 # Pizza-Sales-Analysis-using-SQL
+## Table of content
+
 
 ## Overview
 This project performs an in-depth analysis of a pizza sales dataset to extract **actionable business insights** using **MySQL**.
@@ -21,13 +23,6 @@ The dataset consists of multiple relational tables
 2.  When are peak sales periods?
 3.  How customers behave in ordering?
 4.  Which categories perform best?
-   
-## Key Business Questions Solved
-1.  What is the total revenue and total orders?
-2.  Which pizzas generate the highest revenue?
-3. What are the peak order days and hours?
-4. How does revenue grow over time?
-5. Which category contributes the most to revenue?
    
 ## Tools & Skills Used
 - MySQL
@@ -79,10 +74,9 @@ The dataset consists of multiple relational tables
      2. [orders](orders.csv)
      3. [pizzas](pizzas.csv)
      4. [pizza_types](pizza_types.csv)
-3. Create tables using provided schema
-4. Run SQL queries step-by-step
+2. Run SQL queries step-by-step
    - [Follow this file for SQL queries](pizza_sales.sql)
-5. Analyze results and derive insights
+3. Analyze results and derive insights
    
 ## Project Workflow
 1. **Data Collection**
@@ -138,11 +132,6 @@ ORDER BY Revenue DESC
 LIMIT 1;
 
 ```
-## Key Learnings
-- Writing efficient SQL queries for large datasets
-- Applying window functions for advanced analysis
-- Translating raw data into business insights
-- Understanding real-world sales behavior
 ## Project Structure
 ```
 Pizza-Sales-Analysis-using-SQL
@@ -155,15 +144,8 @@ Pizza-Sales-Analysis-using-SQL
  ┃ ┗ pizza_types.csv
  ┣ Docs/
  ┃ ┗ insights.md
- ┗ 📄 README.md
+ ┗ README.md
  ```
-## Why This Project Matters
-
-- This project simulates real-world data analysis scenarios and demonstrates the ability to:
-
-1. Work with relational databases
-2. Extract meaningful insights
-3. Support business decision-making
 ## Connect With Me
  - [LinkedIn](www.linkedin.com/in/jijau-khandale)
  - [GitHub](https://github.com/Jk1201-web)
