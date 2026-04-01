@@ -1,4 +1,4 @@
-# Retail Sales Analysis - SQL
+# Pizza Sales Analytics & Business Insights (SQL Project) 
 ## Table of content
 - [Overview](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#overview)
 - [Objective](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#objectives)
@@ -31,10 +31,12 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
   
 ## Dataset
 The dataset consists of multiple relational tables
-[Here is the used dataset-pizza_sales.zip](pizza_sales.zip)
+[Dataset used in this project-pizza_sales.zip](pizza_sales.zip)
 
-## ER Diagram.png
-- This ER diagram represents the relational structure of the dataset, where `order_details` acts as a bridge table connecting orders and pizzas.
+## Entity Relationship Diagram
+- The dataset follows a relational structure where:
+1. `order_details` acts as a bridge between `orders` and `pizzas`
+2. `pizzas` is linked to `pizza_types` for category-level insights
 - ![ER_Diagram](ER_Diagram.png)
 
 ## Problem Statement
@@ -86,10 +88,16 @@ The dataset consists of multiple relational tables
 - Used **window functions** to calculate cumulative revenue (running total)
 - Observed **steady business growth** with periodic spikes
 - Highest daily revenue exceeded **₹4,400**
+
+## Business Recommendations
+1. Focus marketing campaigns on high-performing chicken pizzas to maximize revenue
+2. Increase staffing and inventory during peak hours to improve efficiency
+3. Introduce promotions or combos for low-performing products
+4. Optimize stock planning based on category demand trends
   
 ## How to Run
 1. Import dataset into MySQL / PostgreSQL
-   - Dataset has a different tables
+   - Dataset consists of multiple tables
      1. [order_details](order_details.csv)
      2. [orders](orders.csv)
      3. [pizzas](pizzas.csv)
