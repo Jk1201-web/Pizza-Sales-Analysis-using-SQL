@@ -3,6 +3,7 @@
 - [Overview](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#overview)
 - [Objective](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#objectives)
 - [Dataset](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#dataset)
+- [ER Diagram](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL/tree/main#er-diagrampng)
 - [Problem statement](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#problem-statement)
 - [Tools & skills](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#tools--skills-used)
 - [SQL techniques](https://github.com/Jk1201-web/Pizza-Sales-Analysis-using-SQL#sql-techniques-used)
