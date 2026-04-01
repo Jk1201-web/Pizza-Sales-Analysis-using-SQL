@@ -23,13 +23,10 @@ The dataset consists of multiple relational tables
 4. How does revenue grow over time?
 5. Which category contributes the most to revenue?
 ## Tools & Skills Used
-- SQL
-- Joins (INNER JOIN)
-- Aggregations (SUM, COUNT, AVG)
-- Window Functions (RANK, SUM OVER)
+- MySQL
 - Data Analysis
 - Business Insight Generation
-## SQL Techniques Used
+### SQL Techniques Used
 | Category | Concepts |
 |------|------|
 | Data Retrieval | SELECT, WHERE |
@@ -68,7 +65,7 @@ The dataset consists of multiple relational tables
 3. Run SQL queries step-by-step
 4. Analyze results and derive insights
 ## Project Workflow
-1. **Data Collection**  
+1. **Data Collection**
    - Downloaded pizza sales dataset  
    - Identified multiple related tables  
 
@@ -129,9 +126,7 @@ LIMIT 1;
  pizza-sales-analysis
 
  ┣  SQL_Queries.sql
-
  ┣  Dataset
- 
  ┗  README.md
  ```
 ## Why This Project Matters
