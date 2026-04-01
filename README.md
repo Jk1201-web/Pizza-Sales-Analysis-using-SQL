@@ -35,7 +35,7 @@ The dataset consists of multiple relational tables
 
 ## ER Diagram.png
 - This ER diagram represents the relational structure of the dataset, where `order_details` acts as a bridge table connecting orders and pizzas.
-- ![ER_Diagram.png](ER_Diagram.png)
+- ![ER_Diagram](ER_Diagram.png)
 
 ## Problem Statement
 #### The business wants to understand:
