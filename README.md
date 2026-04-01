@@ -144,7 +144,7 @@ SELECT
       SUM(od.quantity * p.price) AS Revenue
 FROM pizza_types pt
 JOIN pizzas p 
-ON p.pizza_type_id = p.pizza_type_id
+ON pt.pizza_type_id = p.pizza_type_id
 JOIN order_details od
 ON od.pizza_id = p.pizza_id
 GROUP BY category
