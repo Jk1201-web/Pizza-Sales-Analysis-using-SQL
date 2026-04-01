@@ -13,6 +13,7 @@ It demonstrates real-world data analyst skills including **data cleaning, transf
   
 ## Dataset
 The dataset consists of multiple relational tables
+[Here is the used dataset-pizza_sales.zip](pizza_sales.zip)
 
 ## Problem Statement
 #### The business wants to understand:
@@ -73,9 +74,15 @@ The dataset consists of multiple relational tables
   
 ## How to Run
 1. Import dataset into MySQL / PostgreSQL
-2. Create tables using provided schema
-3. Run SQL queries step-by-step
-4. Analyze results and derive insights
+   - Dataset has a different tables
+     1. [order_details](order_details.csv)
+     2. [orders](orders.csv)
+     3. [pizzas](pizzas.csv)
+     4. [pizza_types](pizza_types.csv)
+3. Create tables using provided schema
+4. Run SQL queries step-by-step
+   - [Follow this file for SQL queries](pizza_sales.sql)
+5. Analyze results and derive insights
    
 ## Project Workflow
 1. **Data Collection**
